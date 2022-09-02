@@ -1,53 +1,48 @@
-<div dir="rtl" lang="he">
 
-# אנשי השלג
 
-כיתבו פונקציה המציירת איש-שלג!
-הגדרה מפורטת של הקלט והפלט נמצאת כאן:
+# Creating a snowman
+
+According to Systems Programming course - this is my first implementation for the first part of the assignment.
+Followed by the following instructions:
 https://codegolf.stackexchange.com/q/49671/12019
 
-בשלב ב עליכם לכתוב מימוש מלא. המימוש צריך לעבור את כל הבדיקות (75% מהציון):
+* snowman.hpp -> function name.
+* Demo.cpp file -> A basic implementation - not a full implementation - only for compilation.
+* test.cpp -> Tests for implementation.
 
-<div dir='ltr'>
+
+To test implenentation please run:
+<div>
 
     make test
     ./test
 
 </div>
+This script use curl, You might need to install it - `sudo apt install curl`.
 
-הסקריפט משתמש בתוכנה curl - ייתכן שתצטרכו להתקין אותה ע"י `sudo apt install curl`.
 
-בנוסף, הקוד צריך לעבור בהצלחה את מבחן הקריאות (25% מהציון):
-
-<div dir='ltr'>
+This code pass
+<div>
 
     make tidy
 
 </div>
+calls. You might need to intall clang-tidy - `sudo apt install clang-tidy`
 
-הסקריפט משתמש בתוכנה clang-tidy - ייתכן שתצטרכו להתקין אותה ע"י `sudo apt install clang-tidy`.
+To check my grade, please run:
 
-בנוסף, יש לכתוב **תוכנית ראשית** כלשהי המדגימה את הפתרון שלכם.
-תוכן התוכנית לבחירתכם - תהיו יצירתיים. התוכנית לא תיבדק אוטומטית אלא רק בהצגה.
-
-כשהגעתם למצב ששתי הפקודות רצות בלי שגיאות, תוכלו לבדוק את הציון שלכם ע"י הפקודה:
-
-<div dir='ltr'>
+<div>
 
     bash grade
 
 </div>
+I followed those commands for recieving a great feedback without any warnings:
 
-עצה: כדי שהסקריפט grade ירוץ מהר יותר במהלך הפיתוח, מומלץ להגדיר את משתנה-הסביבה DEBUG:
 <div dir='ltr'>
 
-    export DEBUG=1
+    make demo
+    ./demo
+	make test
+    ./test
 
-</div>
-
-
-
-אין לשנות קבצים קיימים, אלא רק להוסיף קבצים חדשים.
-מערכת הבדיקה האוטומטית מעתיקה מחדש את כל הקבצים הקיימים על-גבי הפתרון שאתם מגישים,
-ולכן כל שינוי שתעשו בקבצים הקיימים יימחק.
 </div>
