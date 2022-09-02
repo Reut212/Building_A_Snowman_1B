@@ -6,8 +6,8 @@ According to Systems Programming course - this is my first implementation for th
 Followed by the following instructions:
 https://codegolf.stackexchange.com/q/49671/12019
 
-* snowman.hpp -> function name.
-* Demo.cpp file -> A basic implementation - not a full implementation - only for compilation.
+* snowman.hpp -> function signatures.
+* snowman.cpp file -> A full implementation.
 * test.cpp -> Tests for implementation.
 
 
